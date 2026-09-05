@@ -83,4 +83,32 @@ export const projects = [
     tech: [".NET", "Angular", "SQL"],
     link: null,
   },
+  {
+    name: "Prexa",
+    description:
+      "An e-commerce app built on Power Apps, covering product browsing and order flows in a low-code environment.",
+    tech: ["Power Apps"],
+    link: null,
+  },
+  {
+    name: "Lebra",
+    description:
+      "A second e-commerce app built on Power Apps, covering product browsing and order flows in a low-code environment.",
+    tech: ["Power Apps"],
+    link: null,
+  },
+  {
+    name: "Breadbeers",
+    description:
+      "A rental app built on Power Apps, covering listings and booking flows in a low-code environment.",
+    tech: ["Power Apps"],
+    link: null,
+  },
+  {
+    name: "Big-D",
+    description:
+      "A second rental app built on Power Apps, covering listings and booking flows in a low-code environment.",
+    tech: ["Power Apps"],
+    link: null,
+  },
 ];
