@@ -1,0 +1,43 @@
+.contact__card {
+  position: relative;
+  background: linear-gradient(135deg, var(--accent-soft), var(--bg-soft), var(--accent-soft));
+  background-size: 200% 200%;
+  animation: contact-gradient-shift 10s ease infinite;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 64px 48px;
+  text-align: center;
+  overflow: hidden;
+}
+
+@keyframes contact-gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+.contact__card .section-tag {
+  justify-content: center;
+}
+
+.contact__card .section-heading {
+  margin-bottom: 16px;
+}
+
+.contact__subtitle {
+  max-width: 480px;
+  margin: 0 auto 36px;
+  font-size: 16px;
+}
+
+.contact__links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+@media (max-width: 600px) {
+  .contact__card {
+    padding: 48px 24px;
+  }
+}
