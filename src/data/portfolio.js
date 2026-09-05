@@ -34,7 +34,7 @@ export const skillGroups = [
   },
   {
     label: "Tools & Platforms",
-    skills: ["Docker", "Git", "Vercel", "REST APIs"],
+    skills: ["Docker", "Git", "Vercel", "REST APIs", "Power Apps"],
   },
 ];
 
